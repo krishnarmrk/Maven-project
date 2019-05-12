@@ -108,10 +108,10 @@
 		  <name>libs-snapshot-local</name>
           <url>http://localhost:8040/artifactory/libs-snapshot</url>
         </repository>
-		<!-- <repository>
-          <id>jfrogrepo</id>
+		 <repository>
+         	 <id>jfrogrepo</id>
 		  <name>libs-release-local</name>
-          <url>http://localhost:8040/artifactory/libs-release</url>
+         	 <url>http://localhost:8040/artifactory/libs-release</url>
         </repository>   
 
 		<repository>
@@ -120,11 +120,10 @@
         </repository>
 		
 		<snapshotRepository>
-          <id>localrepo</id>
-          <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
+         	 <id>localrepo</id>
+         	 <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+      		  </snapshotRepository>
 		
- 
 	
 </distributionManagement>   -->
 
