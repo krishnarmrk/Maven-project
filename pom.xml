@@ -85,46 +85,47 @@
     </pluginManagement>
   </build>
 
-
+  <!--
 <repositories>
 	<repository>
       <id>releases</id>
 	  <name>Releases</name>
 	  <url>http://localhost:8081/nexus/content/repositories/releases/</url>
 	</repository>
-   <!--
+  
 	<repository>
       <id>ivos-benz</id>
 	  <name>ivos-benz</name>
 	  <url>http://localhost:8081/nexus/content/repositories/ivos-benz</url>
-	</repository>  -->
-</repositories>  
+	</repository>  
+</repositories>  -->
 
 
-<!--
+
 <distributionManagement>
-		<repository>
-          <id>jfrogrepo</id>
-		  <name>libs-snapshot-local</name>
-          <url>http://localhost:8040/artifactory/libs-snapshot</url>
+<!-- 	<repository>
+       		 <id>jfrogrepo</id>
+		 <name>libs-snapshot-local</name>
+          	 <url>http://localhost:8040/artifactory/libs-snapshot</url>
         </repository>
 		 <repository>
          	 <id>jfrogrepo</id>
 		  <name>libs-release-local</name>
          	 <url>http://localhost:8040/artifactory/libs-release</url>
-        </repository>   
+        </repository>    -->
 
-		<repository>
-          <id>localrepo</id>
-          <url>http://localhost:8081/nexus/content/repositories/releases</url>
-        </repository>
+	<repository>
+     		 <id>releases</id>
+		 <name>Releases</name>
+	 	 <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+	</repository>
 		
-		<snapshotRepository>
+<!--	<snapshotRepository>
          	 <id>localrepo</id>
          	 <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-      		  </snapshotRepository>
+      	 </snapshotRepository>   -->
 		
 	
-</distributionManagement>   -->
+</distributionManagement>   
 
 </project>
