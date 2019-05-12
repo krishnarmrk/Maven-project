@@ -85,23 +85,23 @@
     </pluginManagement>
   </build>
 
-<!-- 
+
 <repositories>
 	<repository>
-      <id>localrepo</id>
-	  <name>localrepo</name>
-	  <url>http://localhost:8081/nexus/content/repositories/testrepo</url>
+      <id>releases</id>
+	  <name>Releases</name>
+	  <urlhttp://localhost:8081/nexus/content/repositories/releases/</url>
 	</repository>
-   
+   <!--
 	<repository>
       <id>ivos-benz</id>
 	  <name>ivos-benz</name>
 	  <url>http://localhost:8081/nexus/content/repositories/ivos-benz</url>
-	</repository>
+	</repository>  -->
 </repositories>  
 
--->
 
+<!--
 <distributionManagement>
 		<repository>
           <id>jfrogrepo</id>
@@ -112,8 +112,8 @@
           <id>jfrogrepo</id>
 		  <name>libs-release-local</name>
           <url>http://localhost:8040/artifactory/libs-release</url>
-        </repository>   -->
-<!-- 
+        </repository>   
+
 		<repository>
           <id>localrepo</id>
           <url>http://localhost:8081/nexus/content/repositories/releases</url>
@@ -124,8 +124,8 @@
           <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
 		
--->  
+ 
 	
-</distributionManagement>
+</distributionManagement>   -->
 
 </project>
