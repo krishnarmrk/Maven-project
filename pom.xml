@@ -90,7 +90,7 @@
 	<repository>
       <id>releases</id>
 	  <name>Releases</name>
-	  <urlhttp://localhost:8081/nexus/content/repositories/releases/</url>
+	  <url>http://localhost:8081/nexus/content/repositories/releases/</url>
 	</repository>
    <!--
 	<repository>
