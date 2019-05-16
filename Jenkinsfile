@@ -9,8 +9,11 @@ agent {node {label ''}}
   }
 stages {
    stage ('checkout'){
-    checkout changelog: false, poll: false, scm: [$class: 'GitSCM', branches: [[name: 'master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'd21c2272-ffb1-459c-87cb-f4174e2d8946', url: 'https://github.com/krishnarmrk/Maven-project.git']]]
+     steps {
+      checkout changelog: false, poll: false, scm: [$class: 'GitSCM', branches: [[name: 'master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'd21c2272-ffb1-459c-87cb-f4174e2d8946', url: 'https://github.com/krishnarmrk/Maven-project.git']]]
    }
-}
+  }
+ }
+
 
 }
