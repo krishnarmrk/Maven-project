@@ -1,5 +1,5 @@
 //pipeline {
-  node('RK'){
+  node('master'){
    checkout scm
   }
 
