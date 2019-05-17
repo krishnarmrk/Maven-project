@@ -26,7 +26,7 @@
 // }
 //}
 
-
+pipeline {
 stage "node master"
 	node('master'){
 		checkout scm
@@ -36,3 +36,4 @@ stage "node sandbox"
 	node('sandbox'){
 		checkout scm
 	}
+}
