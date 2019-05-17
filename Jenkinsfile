@@ -1,8 +1,10 @@
 pipeline {
-  agent (node('master')) {
+  agent (label '') {
    //checkout scm
 	stages{
 	  stage ('checkout'){
+			agent master
+		
 		steps {
 
 		checkout changelog: false, poll: false, scm: [$class: 'GitSCM', branches: [[name: 'master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'd21c2272-ffb1-459c-87cb-f4174e2d8946', url: 'https://github.com/krishnarmrk/Maven-project.git']]]
