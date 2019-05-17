@@ -26,9 +26,9 @@
 // }
 //}
 
-pipeline {
+//pipeline {
 
-agents {
+//agents {
  stages {
 	stage (checkout){
 		node ('master'){
@@ -41,5 +41,5 @@ agents {
 	
    } 
   }
- }
-}
+// }
+//}
