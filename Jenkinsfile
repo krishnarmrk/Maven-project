@@ -1,10 +1,10 @@
 pipeline {
   node('master'){
-  checkout scm
-  }
-  node('sandbox'){
-  checkout scm
-  }
+   checkout scm
+  }{
+  node('master'){
+   checkout scm
+   }
   options {
 	buildDiscarder(logRotator(daysToKeepStr: '10', numToKeepStr: '5'))
 	skipDefaultCheckout(true)
