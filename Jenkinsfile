@@ -1,5 +1,5 @@
 pipeline {
-  agent (label '') {
+  agent none {
    //checkout scm
 	stages{
 	  stage ('checkout'){
