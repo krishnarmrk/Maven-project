@@ -1,7 +1,7 @@
 pipeline {
   node('master'){
    checkout scm
-  }{
+  }
   node('master'){
    checkout scm
    }
@@ -17,5 +17,4 @@ stages {
    }
   }
  }
-}
 }
