@@ -2,7 +2,7 @@ pipeline {
   node('master'){
    checkout scm
   }
-  node('master'){
+  node('sandbox'){
    checkout scm
    }
   options {
