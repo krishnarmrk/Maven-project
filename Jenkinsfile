@@ -31,6 +31,7 @@
 //agents {
  stages {
 	stage (checkout){
+		steps {
 		node ('master'){
 			checkout scm
 		}
@@ -41,5 +42,6 @@
 	
    } 
   }
+ }
 // }
 //}
