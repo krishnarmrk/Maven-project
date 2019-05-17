@@ -26,22 +26,13 @@
 // }
 //}
 
-//pipeline {
 
-//agents {
- stages {
-	stage (checkout){
-		steps {
-		node ('master'){
-			checkout scm
-		}
+stage "node master"
+	node('master'){
+		checkout scm
+	}
 	
-		node ('sandbox'){
-			checkout scm
-		}
-	
-   } 
-  }
- }
-// }
-//}
+stage "node sandbox"	
+	node('sandbox'){
+		checkout scm
+	}
