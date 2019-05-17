@@ -1,4 +1,4 @@
-pipeline {
+//pipeline {
   node('master'){
    checkout scm
   }
@@ -17,4 +17,4 @@ pipeline {
 //   }
 //  }
 // }
-}
+//}
