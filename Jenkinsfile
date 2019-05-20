@@ -23,7 +23,7 @@ pipeline {
 	stage('Test') {
             steps {
                 echo 'Testing..'
-                  junitc '$Workspace/pom.xml'
+                  junit '$Workspace/pom.xml'
             }
 	}
 	
