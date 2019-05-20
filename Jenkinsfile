@@ -20,10 +20,15 @@ pipeline {
                 checkout scm 
             }
 	}
+	stage('Test') {
+            steps {
+                echo 'Testing..'
+                  junitc '$Workspace/pom.xml'
+            }
 	}
 	
-	
-	
+	}
+	}
 //  node('sandbox'){
 //   checkout scm
 //   }
