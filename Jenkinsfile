@@ -20,12 +20,12 @@ pipeline {
                 checkout scm 
             }
 	}
-	stage('Test') {
-            steps {
-                echo 'Testing..'
-                  junit '$Workspace/pom.xml'
-            }
-	}
+	//stage('Test') {
+    //        steps {
+    //           echo 'Testing..'
+    //             junit '$Workspace/pom.xml'
+    //        }
+	//}
 	
 	}
 	}
