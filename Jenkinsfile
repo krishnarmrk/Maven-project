@@ -22,7 +22,7 @@ pipeline {
 	}
 	//stage('Test') {
     //        steps {
-    //           echo 'Testing..'
+    //           echo 'Testing......'
     //             junit '$Workspace/pom.xml'
     //        }
 	//}
