@@ -1,6 +1,6 @@
 pipeline {
   agent none 
-   //checkout scm
+   checkout scm
 	stages{
 	  stage ('checkout'){
 			agent any
@@ -27,7 +27,7 @@ pipeline {
     //        }
 	//}
 	
-	}
+	} 
 	}
 //  node('sandbox'){
 //   checkout scm
