@@ -1,1 +1,1 @@
-Hello GIT
+Git is number one tool in SCM tools, and lot of companies are using git and Github in now a days.
